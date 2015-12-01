@@ -1,8 +1,5 @@
 # wpl-staging
 
-
-On RedHat:
-
 Install software and set timezone (an example for Prague):
 
 ```
