@@ -2,6 +2,7 @@
 
 On RedHat:
 
+```
 yum install puppet
 yum install git
 git clone https://github.com/fhrbek/wpl.git
@@ -13,4 +14,4 @@ puppet module install puppetlabs/apache
 puppet module install puppetlabs/tomcat
 
 puppet apply --modulepath=/root:/etc/puppet/modules -e "class {'wpl': backups => true, sendBackups => true, backupEmailFrom => '<from>', backupEmailPassword => '<passwd>', backupEmailRecipient => '<to>'}"
-
+```
