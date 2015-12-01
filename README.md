@@ -1,6 +1,17 @@
 # wpl-staging
 
+
 On RedHat:
+
+Set timezone on an AWS instance (an example for Prague):
+
+```
+cd /etc
+ln -s ../usr/share/zoneinfo/Europe/Prague localtime 
+init 6
+```
+
+Install software:
 
 ```
 yum install puppet
