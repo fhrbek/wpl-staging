@@ -3,7 +3,7 @@
 
 On RedHat:
 
-Set timezone on an AWS instance (an example for Prague):
+Install software and set timezone (an example for Prague):
 
 ```
 yum install puppet
