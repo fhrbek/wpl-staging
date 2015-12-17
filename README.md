@@ -11,7 +11,7 @@ gem install librarian-puppet
 
 cd /etc/puppet
 librarian-puppet init
-wget https://github.com/fhrbek/wpl-staging/raw/master/Puppetfile
+wget https://github.com/fhrbek/wpl-staging/raw/master/Puppetfile -O Puppetfile
 librarian-puppet install
 
 puppet apply -e "class {'wpl': backups => true, sendBackups => true, backupEmailFrom => '<from>', backupEmailPassword => '<passwd>', backupEmailRecipient => '<to>', tzRegion => 'Europe', tzLocality => 'Prague'}"
